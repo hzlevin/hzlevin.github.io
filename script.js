@@ -12,12 +12,16 @@ const seconds = document.querySelector(".seconds .number"),
   mins  = Math.floor( diff / (1000*60) );
   secs  = Math.floor( diff / 1000 );
 
+  d = days;
+  h = hours - days  * 24;
+  m = mins  - hours * 60;
+  s = secs  - mins  * 60;
 
 
-let secValue = secs,
-  minValue = mins,
-  hourValue = hours,
-  dayValue = days;
+let secValue = s,
+  minValue = m,
+  hourValue = h,
+  dayValue = d;
 
 const timeFunction = setInterval(() => {
   secValue--;
