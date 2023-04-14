@@ -3,10 +3,21 @@ const seconds = document.querySelector(".seconds .number"),
   hours = document.querySelector(".hours .number"),
   days = document.querySelector(".days .number");
 
-let secValue = 11,
-  minValue = 2,
-  hourValue = 2,
-  dayValue = 9;
+  future  = Date.parse("December 20, 2023 11:30:00");
+  now     = new Date();
+  diff    = future - now;
+
+  days  = Math.floor( diff / (1000*60*60*24) );
+  hours = Math.floor( diff / (1000*60*60) );
+  mins  = Math.floor( diff / (1000*60) );
+  secs  = Math.floor( diff / 1000 );
+
+
+
+let secValue = secs,
+  minValue = mins,
+  hourValue = hours,
+  dayValue = days;
 
 const timeFunction = setInterval(() => {
   secValue--;
@@ -32,3 +43,8 @@ const timeFunction = setInterval(() => {
   hours.textContent = hourValue < 10 ? `0${hourValue}` : hourValue;
   days.textContent = dayValue < 10 ? `0${dayValue}` : dayValue;
 }, 1000); //1000ms = 1s
+
+
+///
+
+
