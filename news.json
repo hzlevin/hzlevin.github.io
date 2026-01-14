@@ -3,18 +3,22 @@
         "tag": "GÜNCELLEME",
         "title": "Skill Exp Düzenlemesi",
         "desc": "Strength ve Stamina üst seviyelerde gereken exp miktarı %20 oranında azaltıldı.",
-        "badge": "v2.1"
+        "badge": "Beta v0.6"
     },
     {
-        "tag": "ETKİNLİK",
-        "title": "Hafta Sonu Etkinliği",
-        "desc": "Bu hafta sonu tüm mesleklerde %50 daha fazla kazanç şansı!",
-        "badge": "Event"
+        "tag": "Güncelleme",
+        "title": "Yeni Launcher",
+        "desc": "Sunucumuz'da güvenlik Sebepleriyle Launcher'a geçiş yapıldı",
+        "badge": "Beta v0.5"
     },
     {
-        "tag": "BAKIM",
-        "title": "Sunucu Bakımı",
-        "desc": "Yarın gece 03:00'da genel bakım çalışması yapılacaktır.",
+         "tag": "BAKIM",
+        "title": "Sunucu Restartı",
+        "desc": "Her sabah saat 12:00'da Düzenli restart Atılacaktır.",
         "badge": "Info"
     }
 ]
+
+
+
+
