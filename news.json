@@ -1,0 +1,20 @@
+[
+    {
+        "tag": "GÜNCELLEME",
+        "title": "Skill Exp Düzenlemesi",
+        "desc": "Strength ve Stamina üst seviyelerde gereken exp miktarı %20 oranında azaltıldı.",
+        "badge": "v2.1"
+    },
+    {
+        "tag": "ETKİNLİK",
+        "title": "Hafta Sonu Etkinliği",
+        "desc": "Bu hafta sonu tüm mesleklerde %50 daha fazla kazanç şansı!",
+        "badge": "Event"
+    },
+    {
+        "tag": "BAKIM",
+        "title": "Sunucu Bakımı",
+        "desc": "Yarın gece 03:00'da genel bakım çalışması yapılacaktır.",
+        "badge": "Info"
+    }
+]
